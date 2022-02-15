@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0px;
     padding:0px;
@@ -167,3 +168,174 @@ background: aquamarine;;
 
 
 
+=======
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:80%;
+    margin: auto;
+    background-color: aquamarine;
+}
+.header img{
+    width:150px;
+    margin:10px;
+    border:5px solid rgb(87, 87, 87);
+    border-radius: 50%;
+    float: left;
+}
+.imagesRight{
+    float: left;
+    margin:40px
+}
+.imagesRight h1{
+  color:rgb(0, 162, 255);
+  font-size: 40px;
+
+}
+.imagesRight p{
+    color:rgb(0, 0, 0);
+    font-size:20px
+    
+  }
+  .contact{
+      float:right;
+      margin: 40px;
+      /* text-align: center; */
+      width:300px;
+      
+  }
+  .contact p{
+    
+    padding: 5px;
+    font-weight: bold;
+    color:rgb(88, 37, 27);
+    font-size: 18px;
+}
+  .clear{
+      clear: both;
+  }/* Header end ______________________________________________________ */
+hr{
+ width: 96%;
+ margin: auto;
+    border: 3px solid rgb(65, 65, 65);
+    border-bottom: none;
+
+    /* margin: 0px 40px; */
+    /* padding: 4px; */
+}
+  /* main section starttttttttttttt */
+  .mainSection{
+background: aquamarine;;
+  }
+  .parsonalInfomation{
+    padding:20px;
+  }
+  .leftParsonal h1{
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    color:rgb(0, 162, 255);
+    font-size: 20px;
+  }
+  .rightpersonal{
+      width:70%;
+      float: left;
+  }
+  .rightpersonal p{
+    box-sizing: border-box;
+    padding:10px;
+    color:rgb(54, 54, 54);
+    line-height: 25px;
+
+}
+.lectarul{
+   color:rgb(0, 162, 255);
+    font-size: 20px;
+    padding: 10px;
+ 
+}
+.educationHonars{
+  float: left;
+  width:35%;
+}
+.HSC{
+  width:35%;
+  float:left;
+}
+.foter{
+  /* width:100%; */
+  background-color: black;
+  text-align: center; 
+
+  padding: 20px;
+}
+.foter a{
+ /* text-align: center; */
+  color:white;
+  padding:10px;
+  margin:0 10px;
+  text-decoration: none;
+}
+.coppyright{
+  color:rgb(189, 189, 189);
+  padding:5px;
+}
+  @media (max-width:700px) {
+    .container{
+      width:100%;
+      margin:auto;
+    }
+      .header{
+        text-align: center;
+        width: 80%;
+        margin:auto;
+      }
+      .img{
+          /* width:100px; */
+          /* overflow: hidden; */
+      }
+    .header img{
+        
+        border:1px solid rgb(107, 107, 107);
+        border-radius: 100%;
+        /* text-align: center; */
+        width:30%;
+        /* display: none; */
+        float: none;
+    
+    }
+    .imagesRight{
+        float: none;
+        width:100%;
+        text-align: center;
+           margin:0px;
+    }
+    .imagesRight h1{
+     
+        font-size: 6vw;
+    }
+    .imagesRight p{
+     
+        font-size: 4vw;
+    }
+    .contact{
+        width:100%;
+        margin: 30px 0;
+        text-align: center;
+    
+  }
+  .contact p{
+    font-size: 3vw;
+    color:rgb(49, 49, 49);
+    padding:0px;
+
+  }
+}
+
+
+
+
+>>>>>>> f5d8919f0b18973f327e74ac0bbd6047af00d3f8
